@@ -14,7 +14,6 @@ function TodoList() {
       <Row>
         <Col> <TodoForm /> </Col>
         <Col> <ListGroupInterface /> </Col>
-        <Col>3 of 3</Col>
       </Row>
     </Container>
   );

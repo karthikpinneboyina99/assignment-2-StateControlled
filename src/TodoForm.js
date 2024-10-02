@@ -1,6 +1,8 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import ItemPane from './ItemPane';
 
+/** Input form */
 function TodoForm() {
     return (
         <Form>
@@ -11,12 +13,14 @@ function TodoForm() {
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Due Date</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+                <Form.Control type="date" />
             </Form.Group>
 
             <Button variant="primary" type="submit">
                 Add Todo
             </Button>
+
+            <ItemPane />
         </Form>
     );
 }
