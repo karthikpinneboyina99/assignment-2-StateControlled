@@ -1,5 +1,7 @@
 const todos = [
-  { title: 'Todo 1', 
+  { 
+    id: 0,
+    title: 'Todo 1', 
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -10,7 +12,9 @@ const todos = [
     dueDate: '2024-04-03' 
   },
 
-  { title: 'Todo 2', 
+  { 
+    id: 1,
+    title: 'Todo 2', 
     description: `Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. 
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
       Suspendisse potenti. Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. 
@@ -18,7 +22,9 @@ const todos = [
     dueDate: '2024-04-06' 
   },
 
-  { title: 'Todo 3', 
+  { 
+    id: 2,
+    title: 'Todo 3', 
     description: `Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
       Suspendisse potenti. Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. Vivamus nec nisi nec nunc mattis molestie. 
       Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. Pellentesque habitant morbi tristique 
@@ -26,7 +32,9 @@ const todos = [
     dueDate: '2024-04-09' 
   },
 
-  { title: 'Todo 4', 
+  { 
+    id: 3,
+    title: 'Todo 4', 
     description: `Suspendisse potenti. Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. 
       Vivamus nec nisi nec nunc mattis molestie. Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. 
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. 
@@ -34,3 +42,5 @@ const todos = [
     dueDate: '2024-04-11' 
   }
 ];
+
+export {todos};

@@ -1,14 +1,40 @@
 import ListGroup from 'react-bootstrap/ListGroup';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Tab from 'react-bootstrap/Tab';
+import {todos} from './todoItems';
 
 function ListGroupInterface() {
+
   return (
-    <ListGroup>
-      <ListGroup.Item>Cras justo odio</ListGroup.Item>
-      <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-      <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-      <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-      <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-    </ListGroup>
+    <Tab.Container id="list-group-interface">
+            <Row>
+              <Col sm={4}>
+                <ListGroup>
+                  {todos.map(
+                    todo => (
+                      <ListGroup.Item eventKey={todo.title} key={todo.id}>
+                        {todo.title}
+                      </ListGroup.Item>
+                    )
+                  )}
+                </ListGroup>
+              </Col>
+
+              <Col sm={8}>
+                <Tab.Content>
+                  {todos.map(
+                    todo => (
+                      <Tab.Pane eventKey={todo.title} key={todo.id}>
+                        {todo.description}<br />
+                        {todo.dueDate}
+                      </Tab.Pane>
+                    )
+                  )}
+                </Tab.Content>
+              </Col>
+            </Row>
+        </Tab.Container>
   );
 }
 

@@ -1,6 +1,5 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import ItemPane from './ItemPane';
 
 /** Input form */
 function TodoForm() {
@@ -19,8 +18,6 @@ function TodoForm() {
             <Button variant="primary" type="submit">
                 Add Todo
             </Button>
-
-            <ItemPane />
         </Form>
     );
 }
