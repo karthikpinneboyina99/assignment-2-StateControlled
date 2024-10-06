@@ -25,9 +25,9 @@ function ListGroupInterface() {
                 <Tab.Content>
                   {todos.map(
                     todo => (
-                      <Tab.Pane eventKey={todo.title} key={todo.id}>
+                      <Tab.Pane eventKey={todo.title} key={todo.id} contentEditable="true">
                         {todo.description}<br />
-                        {todo.dueDate}
+                        <input type="date" value={todo.dueDate} />
                       </Tab.Pane>
                     )
                   )}

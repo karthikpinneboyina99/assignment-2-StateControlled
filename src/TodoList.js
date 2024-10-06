@@ -3,12 +3,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import TodoForm from './TodoForm';
 import ListGroupInterface from './ListGroupInterface';
+import './TodoList.css';
 
 function TodoList() {
   return (
-    <Container>
-      <Row>
-        <Col>Assignment 2: Will's ToDo List</Col>
+    <Container fluid="md">
+      <Row className="text-center mb-3 mt-3">
+        <Col><div class="t-title">Assignment 2: Will's ToDo List</div></Col>
       </Row>
 
       <Row>

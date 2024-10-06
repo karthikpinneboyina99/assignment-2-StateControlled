@@ -9,7 +9,7 @@ const todos = [
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
       culpa qui officia deserunt mollit anim id est laborum.`, 
-    dueDate: '2024-04-03' 
+    dueDate: '2024-10-09' 
   },
 
   { 
@@ -19,7 +19,7 @@ const todos = [
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
       Suspendisse potenti. Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. 
       Vivamus nec nisi nec nunc mattis molestie. Sed auctor nunc nec nisi ultrices, in molestie nibh mattis.`, 
-    dueDate: '2024-04-06' 
+    dueDate: '2024-10-12' 
   },
 
   { 
@@ -29,7 +29,7 @@ const todos = [
       Suspendisse potenti. Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. Vivamus nec nisi nec nunc mattis molestie. 
       Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. Pellentesque habitant morbi tristique 
       senectus et netus et malesuada fames ac turpis egestas.`, 
-    dueDate: '2024-04-09' 
+    dueDate: '2024-10-06' 
   },
 
   { 
@@ -39,7 +39,28 @@ const todos = [
       Vivamus nec nisi nec nunc mattis molestie. Sed auctor nunc nec nisi ultrices, in molestie nibh mattis. 
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. 
       Nullam nec nibh nibh. Nullam quis nisl nec nunc congue mollis. `, 
-    dueDate: '2024-04-11' 
+    dueDate: '2025-04-11' 
+  },
+
+  {
+    id: 4,
+    title: 'Buy Bus Ticket',
+    description: 'Buy a bus ticket to New York.',
+    dueDate: '2024-08-29'
+  },
+
+  {
+    id:256,
+    title: 'Groceries',
+    description: 'Apples, oranges, lemons, pears.',
+    dueDate: '2024-11-01'
+  },
+
+  {
+    id:257,
+    title: 'Clean bathroom',
+    description: 'Clean the bathroom.',
+    dueDate: '2024-10-05'
   }
 ];
 
