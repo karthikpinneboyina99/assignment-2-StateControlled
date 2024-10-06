@@ -5,11 +5,12 @@ import TodoForm from './TodoForm';
 import ListGroupInterface from './ListGroupInterface';
 import './TodoList.css';
 
+/** This class places the various elements on the landing page */
 function TodoList() {
   return (
     <Container fluid="md">
       <Row className="text-center mb-3 mt-3">
-        <Col><div class="t-title">Assignment 2: Will's ToDo List</div></Col>
+        <Col><div className="t-title">Assignment 2: Will's ToDo List</div></Col>
       </Row>
 
       <Row>

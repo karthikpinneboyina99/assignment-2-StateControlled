@@ -2,7 +2,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './TodoForm.css';
 
-/** Input form */
+/** Input form : Text field for an item title, text field for description, date selector for due date. (Not functional) */
 function TodoForm() {
     return (
         <Form>
@@ -12,7 +12,6 @@ function TodoForm() {
                 <Form.Control type="textarea" placeholder="Add todo item" />
             </Form.Group>
             
-
             <Form.Group className="mb-3 ms-3 me-3" controlId="todo-date-input">
                 <Form.Label>Due Date</Form.Label>
                 <Form.Control type="date" />
